@@ -32,17 +32,24 @@
 
 		5. Each code statement must end with a semicolon.
 
-This is end of multi line comment -- > */ 
+This is end of multi line comment -- > */
 
-// We can't name our class name as same as file name
 // we can also write public class main.
-class Main{
+class Main {
 
-	// The main() method is required and you will see it in every Java program:
-	// Inside the main() method, we can use the println() method to print a line of text to the screen:
+	// The main() method is requirsed and you will see it in every Java program:
+
+	// Inside the main() method, we can use the println() method to print a line of
+	// text to the screen:
+
 	// Public is used here to use this function publicly
-	// declare the function as static, then it limits the function scope. The static function can be accessed within a file only.
-	public static void main(String[] args){
+
+	// declare the function as static, then it limits the function scope. The static
+	// function can be accessed within a file only.
+
+	// String[] args: It stores Java command line arguments and is an array of type
+	// java
+	public static void main(String[] args) {
 		System.out.println("Hello World");
 	}
 }

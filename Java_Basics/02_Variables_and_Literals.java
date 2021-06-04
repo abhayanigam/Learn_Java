@@ -1,4 +1,4 @@
-class Main{
+class Main {
     public static void main(String[] args) {
         int a = 12;
         float b = 2.5f;
@@ -8,8 +8,8 @@ class Main{
         String f = "Hello";
         boolean myBool = true;
 
-        //The println() method is often used to display variables.
-        //To combine both text and a variable, use the + character:
+        // The println() method is often used to display variables.
+        // To combine both text and a variable, use the + character:
 
         System.out.println("Int :" + a);
         System.out.println("float :" + b);
@@ -22,7 +22,7 @@ class Main{
         // can also use the + character to add a variable to another variable:
         String FirstName = "Git";
         String LastName = "Hub";
-        System.out.println("Hello "+FirstName+LastName);
+        System.out.println("Hello " + FirstName + LastName);
 
         // Declare Many Variables
         int x = 5, y = 6, z = 50;
