@@ -34,6 +34,12 @@
 
 This is end of multi line comment -- > */
 
+/*
+    Name Conventions
+        > For Class we use PascalConvention
+        > For Functions we use camelCaseConvention
+ */
+
 // we can also write public class main.
 public class HelloWorld {
 
