@@ -42,10 +42,9 @@ public class HelloWorld {
     // Inside the main() method, we can use the println() method to print a line of
     // text to the screen:
 
-    // Public is used here to use this function publicly
+    // Public(access modifier) : Public is used here to use this function publicly or anywhere in program.
 
-    // declare the function as static, then it limits the function scope. The static
-    // function can be accessed within a file only.
+    // Static : Static allow us to use this class function without creating an object.
 
     // String[] args: It stores Java command line arguments and is an array of type java
 
