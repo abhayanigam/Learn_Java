@@ -16,7 +16,7 @@
 
           - Array Length:
                 To find out how many elements an array has
-                Example : arrayName.lenght
+                Example : arrayName.length
  */
 
 import java.util.Arrays;
@@ -70,7 +70,12 @@ public class Array {
 //        }
 
 //          create a 3d array
-        int[][][] test = {{{1, -2, 3}, {2, 3, 4}},{{-4, -5, 6, 9}, {1}, {2, 3}}};
+        int[][][] test = {
+                {{1, -2, 3},
+                        {2, 3, 4}},
+                {{-4, -5, 6, 9},
+                        {1}, {2, 3}}
+        };
 
         // for..each loop to iterate through elements of 3d array
         for (int[][] array2D: test) {
