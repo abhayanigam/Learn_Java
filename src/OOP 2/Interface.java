@@ -1,4 +1,5 @@
 //Interface in Java
+//Interface: Used when you want to define a contract without worrying about the implementation. It's more about defining "what" can be done, not "how" it's done.
 
 import java.lang.Math;
 
