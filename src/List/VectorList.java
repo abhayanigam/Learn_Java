@@ -62,3 +62,5 @@ public class VectorList {
         System.out.println("Vector after clear(): " + animals);
     }
 }
+
+// “I’ll use ArrayList for better performance in single-threaded scenarios, and if thread-safety is needed, I’ll use Collections.synchronizedList() or CopyOnWriteArrayList instead of Vector.”
