@@ -1,6 +1,8 @@
 /*
     The Java Generics allows us to create a single class, interface,
     and method that can be used with different types of data (objects).
+
+    Genrics are type eraser and can be changed at runtime.
 */
 
 // Creating a generic class
